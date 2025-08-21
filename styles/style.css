@@ -1,0 +1,70 @@
+/*
+Responsabilidade do aluno criar o Layout CSS
+*/
+
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-image: url('./images/fundo.jpg');
+
+ 
+  
+}
+
+
+#add-button {
+    background-color: #162bec; /* Verde */
+    color: white;              /* Texto branco */
+    padding: 10px 20px;        /* Espaçamento interno */
+    border: none;              /* Sem borda */
+    border-radius: 5px;        /* Cantos arredondados */
+    cursor: pointer;           /* Cursor de mãozinha */
+    font-size: 14px;           /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+#add-button:hover {
+    background-color: #fbff04; /* Verde um pouco mais escuro ao passar o mouse */
+    color: black;
+}
+
+.clicked {
+    background-color: #2196F3;
+    color: white;
+}
+
+todo-list li {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo do botão Deletar */
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
